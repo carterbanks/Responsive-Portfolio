@@ -1,0 +1,355 @@
+#header:after {
+    content: "";
+}
+
+h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 25px 25px 25px 40px;
+    margin: 0 100px;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 0;
+}
+
+/* This is the sidebar box */
+aside {
+    background: #ffffff;
+    width: 20%;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 910px;
+    margin-right: 150px;
+    float: right;
+    padding: 20px;
+}
+
+/* This is the about me box */
+#content {
+    margin-top: 60px;
+    margin-right: 550px;
+    background: #ffffff;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-left: 145px;
+    text-indent: 60px;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    /* text-align: center; */
+}
+
+.boutme {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    text-align: left;
+    margin-left: -35px;
+    
+}
+
+#port {
+    margin-left: 20px;
+
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    text-align: center;
+    /* border-bottom: 1px groove #777777; */
+    padding: 20px 10px 30px;
+    margin-top: 0px;
+    
+}
+
+#name {
+    border-bottom: 2px solid #777777;
+    width: 85%;
+    margin: 20px 25px;
+    padding: 10px 10px 20px 20px;
+
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    margin-right: 50px;
+}
+
+#carter {
+    width: 200px;
+    float: left;
+    margin: 25px;
+
+}
+
+#background {
+    position: fixed;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+  }
+
+
+ul {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 66.6%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    border-bottom-style: groove;
+    border-color: #cccccc;
+    top: 0;
+}
+
+li {
+    float: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+
+li a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: block;
+    color: #7777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #4aaaa5;
+}
+
+#linkedIn {
+    /* margin-right: 3px; */
+    /* height: 60px;
+    width: 60px; */
+    width: 64px;
+    height: 64px;
+    padding: 5px 5px 5px 5px;
+}
+
+#github {
+    /* margin-right: 3px; */
+    /* height: 65px;
+    width: 65px; */
+    width: 64px;
+    height: 64px;
+    padding: 5px 5px 5px 5px;
+}
+
+#stack {
+    /* height: 60px;
+    width: 60px; */
+    width: 64px;
+    height: 64px;
+    padding: 5px 5px 5px 5px;
+    /* margin-bottom: 2px; */
+}
+
+#contactme {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #ffffff;
+    
+    padding: 20px;
+    float: left;
+  
+    margin-top: 60px;
+    margin-right: 550px;
+    background: #ffffff;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    margin-left: 145px;
+    text-indent: 60px;
+    text-align: left;
+   
+    padding-bottom: 20px;
+}
+
+input[type=text]{
+    position: 
+    /* margin: 5px; */
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+input[type=submit]{
+    background: #4aaaa5;
+    width: 150px;
+    height: 50px;
+    font-family: arial;
+    color: #ffffff;
+}
+
+form {
+    font-family: arial;
+    color: #777777;
+}
+
+#nameme {
+    width: 80%;
+}
+
+#email {
+    width: 80%;
+}
+
+#message {
+    width: 80%;
+    height: 125px;
+}
+
+#portpholio {
+    /* background: #ffffff;
+    width: 650px;
+    height: 400px;
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 145px; */
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #ffffff;
+    
+    padding: 20px;
+    float: left;
+  
+    margin-top: 60px;
+    margin-right: 550px;
+    background: #ffffff;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    margin-left: 145px;
+    text-indent: 60px;
+    text-align: left;
+   
+    padding-bottom: 20px;
+}
+
+#footbar {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    padding: 10px 10px;
+    border-top: 5px solid #4aaaa5;;
+    background: #666666;
+    color: #b8b2b2;
+    z-index: 11;
+    bottom: 0px;
+    position: fixed;
+}
+
+#pic {
+    float: left;
+    height:150px;
+    margin: 20px;
+    width: 26.3%;
+}
+
+.lilgreyline {
+    width: 90%;
+    height: 3px;
+    /* border: grey; */
+    background-color: rgb(184, 182, 182);
+    border: rgb(184, 182, 182);
+}
+
+.lilgreyline2 {
+    width: 90%;
+    height: 2px;
+    /* border: grey; */
+    background-color: rgb(184, 182, 182);
+    border: rgb(184, 182, 182);
+}
+
+.centeredgroup {
+    text-align: left;
+}
+
+.applebubbles {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:979px){
+    #content, #portfolio, #contactme{
+        width: 70%;
+        float: left;
+    } 
+
+    aside{
+        width: 70%;
+        float: left;
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width:739px){
+    #content, #portfolio, #contactme{
+        width: 100%;
+        float: left;
+        margin: 10px;
+        margin-top: 30px;
+    } 
+
+    aside{
+        width: 100%;
+        float: left;
+        position: relative;
+        bottom: 10px;
+    }
+
+    #name{
+        width: 100%;
+        margin: 0px;
+        float: left;
+        padding: 0px;
+        position: absolute;
+        text-align: center;
+    }
+
+    ul{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        height: 80px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    li a{
+        float: left;
+        margin-right: 400px;
+    }
+
+    h1{
+        margin: 0px;
+        padding-right: 100%;
+    }
+
+    #about, #portfolio, #contact{
+        margin-top: 1px;
+        margin-left: 210px;
+
+    }
+}
